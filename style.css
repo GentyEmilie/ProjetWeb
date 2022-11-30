@@ -1,0 +1,22 @@
+.fstElement{
+	color:black;
+	font-weight:bold;
+}
+
+.lstElement{
+	color:red;
+	font-weight:bold;
+}
+body{
+	background-color:#00FFFF;
+}
+
+header, footer, main{
+	background-color:#AFDFDF;
+}
+
+nav a:hover{
+	color:#FFFFFF;
+	background-color:black;
+	font-weight:bold;
+}
