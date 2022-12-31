@@ -1,22 +1,40 @@
-.fstElement{
-	color:black;
-	font-weight:bold;
+.fond_accueil {
+    position: relative;
+	width : 100%; 
+}
+.fond_accueil .nom_site {
+    position: absolute;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 50%;
+    top: 50%;
+	transform: translate(-50%, -50%);
+    color: white;
+	font-size: 40px;
+	background-color: rgba(50, 25, 0, 0.7);
+	width: 80%;
+
 }
 
-.lstElement{
-	color:red;
-	font-weight:bold;
-}
 body{
-	background-color:#00FFFF;
+	background-color:#AE8964;
+	text-align: justify;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header, footer, main{
-	background-color:#AFDFDF;
+header{
+	background-color: #AE8964;
+	position: relative;
+	display: block;
 }
 
-nav a:hover{
-	color:#FFFFFF;
-	background-color:black;
+nav a{
+	color: #552600;
 	font-weight:bold;
+	text-decoration: none;
+}
+nav a:hover{
+	color:#552600;
+	background-color:#D2B48C;
+	border-bottom: 2px solid;
 }
