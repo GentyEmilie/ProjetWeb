@@ -1,6 +1,6 @@
 .fond_accueil {
     position: relative;
-	width : 100%; 
+	width : 100%;
 }
 .fond_accueil .nom_site {
     position: absolute;
@@ -16,6 +16,14 @@
 
 }
 
+*{
+	margin: 0;
+}
+
+main{
+	margin: 10px;
+}
+
 body{
 	background-color:#AE8964;
 	text-align: justify;
@@ -23,8 +31,9 @@ body{
 }
 
 header{
-	background-color: #AE8964;
-	position: relative;
+	padding-bottom: 5px;
+	background-color: #886441;
+	position: fixed;
 	display: block;
 }
 
