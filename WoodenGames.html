@@ -3,6 +3,35 @@
     <head>
 		<title>Wooden Games</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>		
+			.container {
+			  margin: auto;
+			  background: #552600;
+			  color: white;
+			  border-radius: 40px;
+			  padding: 20px 20px;
+			}
+		
+			.flex-container {
+			  display: flex;
+			  flex-wrap:wrap-reverse
+			  justify-content: space-between;
+			  padding-left: 0;
+			}
+		
+		
+			.flex-container li {
+			  flex: 0 0 100%;
+			  padding-left: 0px;
+			}
+
+			img{
+				border-radius: 10px; 
+				border: 1px solid lightgray;
+				background-color:#8f785b
+			}
+		  </style>
+		
     </head>
     <body>
 	<header>
@@ -20,6 +49,7 @@
 	
 	<main class="colorClass">
 		<hr/>
+		
 		<section>
 			<p>
 				<br/>
@@ -33,40 +63,41 @@
 			</p>
 		</section>
 		<hr/>
-		<section>
-			<article>
-				<br/>
-				<h4>Séléction de jeux d'intérieur :</h4>
-				<br>
-				<ul class="flex-container"><a href="WoodenGames/jeu_interieur.html">
-					<li>
-						<img src="images/puissance.PNG" alt="puissance" width="200px"/>
-					</li>
-					<li>
-						<img src="images/siam.PNG" alt="siam" width="200px"/>
-					</li>
-					<li>
-						<img src="images/hexa.PNG" alt="hexa" width="200px"/>
-					</li>
-					</a>
-				</ul>
-				<hr/>
-
-				Séléction de jeux en extérieur :
-				<br/>
-				<ul class="flex-container"><a href="WoodenGames/jeu_exterieur.html">
-					<li>
-						<img src="images/kubb.png" alt="kubb" width="200px"/>
-					</li>
-					<li>
-						<img src="images/molkky.png" alt="molky" width="200px"/>
-					</li>
-					<li>
-						<img src="images/anneaux.png" alt="anneaux" width="200px"/>
-					</li>
-					</a>
-				</ul>
-			</article>
+		<br/>
+		<section class="container">
+			<h4>Séléction de jeux d'intérieur :</h4>
+			<br>
+			<ul class="flex-container"><a href="WoodenGames/jeu_interieur.html">
+				<li>
+					<img src="images/puissance.PNG" alt="puissance" width="200px" style="border-radius: 10px;"/>
+				</li>
+				<li>
+					<img src="images/siam.PNG" alt="siam" width="200px"/>
+				</li>
+				<li>
+					<img src="images/hexa.PNG" alt="hexa" width="200px"/>
+				</li>
+				</a>
+			</ul>
+		</section>
+		<br/>
+		<hr/>
+		<br/>
+		<section class="container">
+			<h4>Séléction de jeux en extérieur :</h4>
+			<br/>
+			<ul class="flex-container"><a href="WoodenGames/jeu_exterieur.html">
+				<li>
+					<img src="images/kubb.png" alt="kubb" width="200px"/>
+				</li>
+				<li>
+					<img src="images/molkky.png" alt="molky" width="200px"/>
+				</li>
+				<li>
+					<img src="images/anneaux.png" alt="anneaux" width="200px"/>
+				</li>
+				</a>
+			</ul>
 		</section>
 	</main>
 	<hr/>

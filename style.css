@@ -58,3 +58,12 @@ nav a:hover{
 ul {
 	list-style-type: none;
   }
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	padding: 5px 0;
+	color: white;
+	background-color: #552600;
+}
