@@ -67,3 +67,17 @@ footer {
 	color: white;
 	background-color: #552600;
 }
+table{
+	background-color: bisque;
+	min-width: 300px;
+	min-height: 150px;
+}
+.but {
+
+	transition: transform 0.2s; 
+
+	margin: 20px;
+  }
+.but:hover{
+	transform: scale(1.02);
+}
