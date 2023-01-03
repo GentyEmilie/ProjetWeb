@@ -31,19 +31,30 @@ body{
 }
 
 header{
-	padding-bottom: 5px;
+	padding-bottom: 7px;
 	background-color: #886441;
-	position: fixed;
+	position: relative;
 	display: block;
+}
+
+nav{
+	display: flex;
+    justify-content:space-around;
+	padding: 0px 50px;
 }
 
 nav a{
 	color: #552600;
 	font-weight:bold;
 	text-decoration: none;
+	
 }
 nav a:hover{
 	color:#552600;
 	background-color:#D2B48C;
 	border-bottom: 2px solid;
 }
+
+ul {
+	list-style-type: none;
+  }
