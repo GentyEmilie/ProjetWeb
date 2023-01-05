@@ -2,7 +2,7 @@
     position: relative;
 	width : 100%;
 }
-.fond_accueil .nom_site {
+.fond_accueil #nom_site {
     position: absolute;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
