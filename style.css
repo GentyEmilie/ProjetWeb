@@ -57,13 +57,12 @@ nav a:hover{
 	border-bottom: 2px solid;
 }
 
-a div.flex-container :hover{
-	color:#552600;
+div.flex-container :hover{
 	background-color:#D2B48C;
-	border-bottom: 2px solid;
+	border-radius: 10px;
+	padding: 5px;
 	opacity: 0.53;
 }
-
 
 
 a {
@@ -73,17 +72,6 @@ a {
 a :hover {
 	font-style: italic;
 }
-
-
-flex-container {
-	flex-direction: row;
-	vertical-align: middle;
-	justify-content: space-around;
-	flex : 1;
-	flex-wrap: wrap;
-	padding: 20px;
-}
-
 
 h2 {
 	margin: 10px;
