@@ -21,7 +21,9 @@
 }
 
 main{
-	margin: 10px;
+
+	margin-bottom: 50px;
+
 }
 
 body{
@@ -32,7 +34,7 @@ body{
 
 header{
 	padding-bottom: 7px;
-	background-color: #886441;
+	background-color: #906247;
 	position: relative;
 	display: block;
 }
@@ -55,9 +57,69 @@ nav a:hover{
 	border-bottom: 2px solid;
 }
 
-ul {
-	list-style-type: none;
-  }
+a div.flex-container :hover{
+	color:#552600;
+	background-color:#D2B48C;
+	border-bottom: 2px solid;
+	opacity: 0.53;
+}
+
+
+
+a {
+	color: #6f3b12 ;
+}
+
+a :hover {
+	font-style: italic;
+}
+
+
+flex-container {
+	flex-direction: row;
+	vertical-align: middle;
+	justify-content: space-around;
+	flex : 1;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+
+h2 {
+	margin: 10px;
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+li h2 {
+	margin-left: 5px;
+}
+
+h1 {
+	margin: 10px;
+	margin-left: 20px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
+p {
+	text-align: justify;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+div p {
+	text-align: justify;
+	margin : 20px
+}
+
+li {
+	text-align: justify;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
 
 footer {
 	position: fixed;
@@ -66,18 +128,53 @@ footer {
 	padding: 5px 0;
 	color: white;
 	background-color: #552600;
+	text-align: center;
 }
+
 table{
-	background-color: bisque;
+	align-self: center;
+	background-color: #d3b49b;
 	min-width: 300px;
 	min-height: 150px;
 }
+
+td {
+	padding: 10px;
+}
+
+th {
+	text-align: center;
+}
+
+img.illustration {
+	display: flex;
+	flex: 1;
+	margin: 10px;
+
+	float:right; 
+	max-width: 300px; 
+	width: 100%; 
+	flex: 1;
+	border-radius: 10px;
+}
+
+.lien {
+	margin-left: 30px;
+}
+
+.center {
+	margin: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .but {
 
 	transition: transform 0.2s; 
 
 	margin: 20px;
   }
+
 .but:hover{
 	transform: scale(1.02);
 }

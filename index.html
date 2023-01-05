@@ -6,7 +6,7 @@
 		<style>		
 			.container {
 			  margin: auto;
-			  background: #552600;
+			  background: #906247;
 			  color: white;
 			  border-radius: 40px;
 			  padding: 20px 20px;
@@ -21,14 +21,14 @@
 		
 		
 			.flex-container li {
-			  flex: 1 2%;
+			  flex: 0 0 100%;
 			  padding-left: 0px;
 			}
 
 			img{
 				border-radius: 10px; 
 				border: 1px solid lightgray;
-				background-color:#8f785b
+				background-color:#87503d
 			}
 		  </style>
 		
@@ -37,7 +37,8 @@
 	<header>
 		<a href="WoodenGames.html">
 			<div class = fond_accueil>
-				<img src="images/accueil.png", width="100%" style="border-radius: 0px; border: 0px;"/>
+				<img src="images/accueil.png", width="100%" style="border-radius: 0px; border: 0px;
+				background-color:#a7643d"/>
 				<div class = "nom_site">Wooden Games</div>
 			</div>
 		</a>
@@ -47,7 +48,7 @@
 		</nav>
 	</header>
 	
-	<main class="colorClass">
+	<main class="colorClass" class="container">
 		<hr/>
 		
 		<section>
@@ -67,18 +68,14 @@
 		<section class="container">
 			<h4>Séléction de jeux d'intérieur :</h4>
 			<br>
-			<ul class="flex-container"><a href="WoodenGames/jeu_interieur.html">
-				<li>
+			<a href="WoodenGames/jeu_interieur.html" margin: 20px>
+				<div class="flex-container">
 					<img src="images/puissance.PNG" alt="puissance" width="200px" style="border-radius: 10px;"/>
-				</li>
-				<li>
 					<img src="images/siam.PNG" alt="siam" width="200px"/>
-				</li>
-				<li>
 					<img src="images/hexa.PNG" alt="hexa" width="200px"/>
-				</li>
-				</a>
-			</ul>
+				</div>
+			</a>
+
 		</section>
 		<br/>
 		<hr/>
@@ -86,22 +83,17 @@
 		<section class="container">
 			<h4>Séléction de jeux en extérieur :</h4>
 			<br/>
-			<ul class="flex-container"><a href="WoodenGames/jeu_exterieur.html">
-				<li>
+			<a href="WoodenGames/jeu_exterieur.html">
+				<div class="flex-container">
 					<img src="images/kubb.png" alt="kubb" width="200px"/>
-				</li>
-				<li>
 					<img src="images/molkky.png" alt="molky" width="200px"/>
-				</li>
-				<li>
 					<img src="images/anneaux.png" alt="anneaux" width="200px"/>
-				</li>
-				</a>
-			</ul>
+				</div>
+			</a>
 		</section>
 	</main>
 	<hr/>
-	<footer class="colorClass">&copy; Copyright 2019 by ME. All Rights Reserved.</footer>
+	<footer class="colorClass">&copy; Copyright 2023 by ME. All Rights Reserved.</footer>
     </body>
 </html>
 

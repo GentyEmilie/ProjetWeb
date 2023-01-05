@@ -3,27 +3,30 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../../style.css">
+	<link rel="stylesheet" href="../../style.css">
 	<title>Puissance Quatre</title>
 </head>
 
 <body>
 	<header>
 		<a href="../../WoodenGames.html">
-			<img src="../../images/accueil.png" alt="Globe Logo"/>
+			<div class = fond_accueil>
+				<img src="../../images/accueil.png", width="100%" style="border-radius: 0px; border: 0px;"/>
+				<div class = "nom_site">Wooden Games</div>
+			</div>
 		</a>
 		<nav>
 			<a href="../../WoodenGames.html">Accueil</a>
-			<a href="../../WoodenGames/jeu_interieur.html">Jeux d'intérieur</a>
+			<a href="../../WoodenGames/jeu_exterieur.html">Jeux d'extérieur</a>
 		</nav>
 	</header>
 	<hr/>
 
-	<main class="colorClass">
+	<main class="colorClass" class="container">
 		<section>
 			<article>								<!--Mettre article après le titre et l'image?-->
 				<h1>Puissance Quatre</h1>					<!--Mettre au milieu-->
-				<img src="../../images/puissance.png" alt="Puissance 4 Image"> 	<!--Image du jeu en question à completer-->
+				<img class="illustration" src="../../images/puissance.png" alt="Puissance 4 Image"> 	<!--Image du jeu en question à completer-->
 				
 				<h2>Présentation</h2>											<!--Mettre au dans un div?.  Taille du titre adapté? -->
 				<p> Grand classique à deux, le Puissance 4 est un jeu de statégie combinatoire abstrait</p>
@@ -42,7 +45,7 @@
 					Si, alors que toutes les cases de la grille de jeu sont remplies, aucun des deux joueurs n'a réalisé un tel alignement, la partie est déclarée nulle.
 					</li>
 				</ul>
-				<a href="https://lululataupe.com/tout-age/686-puissance-4">Testez vous même!</a>
+				<a class="lien" href="https://lululataupe.com/tout-age/686-puissance-4">Testez vous même!</a>
 				
 				<h2>Les Tips de la Team</h2>
 				<p>
@@ -55,8 +58,7 @@
 			</article>
 
 		<section>
-			<center>
-			<table border = "1">
+			<table class="center" border = "1">
 				<tr>
 				<th colspan = "2">Caractéristiques</th>
 				</tr>
@@ -81,7 +83,6 @@
 			  	  <td>environ 10 minutes</td>
 				</tr>
 			  </table>
-			</center>
 		</section>
 
 		<div><div class ="but"><a style = "float:left" href="./siam.html">
@@ -97,6 +98,6 @@
 					<!-- Nouvelle section Inserer une video exemple?-->
 	</main>
 	<hr/>
-	<footer>&copy; Copyright 2019 by ME. All Rights Reserved.</footer>
+	<footer>&copy; Copyright 2023 by US. All Rights Reserved.</footer>
 </body>
 </html>
