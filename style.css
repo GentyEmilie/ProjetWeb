@@ -1,3 +1,14 @@
+*{
+	margin: 0;
+}
+
+header{
+	padding-bottom: 7px;
+	background-color: #906247;
+	position: relative;
+	display: block;
+}
+
 .fond_accueil {
     position: relative;
 	width : 100%;
@@ -16,28 +27,15 @@
 
 }
 
-*{
-	margin: 0;
-}
 
-main{
-
-	margin-bottom: 50px;
-
-}
 
 body{
 	background-color:#AE8964;
 	text-align: justify;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom: 50px;
 }
 
-header{
-	padding-bottom: 7px;
-	background-color: #906247;
-	position: relative;
-	display: block;
-}
 
 nav{
 	display: flex;
